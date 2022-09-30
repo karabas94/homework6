@@ -7,7 +7,7 @@
 from random import randint
 
 # random list with random range
-my_list = [randint(1, 200) for i in range(randint(1, 20))]
+my_list = [randint(1, 200) for i in range(randint(1, 5))]
 print(my_list)
 # if elements less than two, zero will be appended
 if len(my_list) < 2:
